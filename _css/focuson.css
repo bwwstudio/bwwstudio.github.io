@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/*------------------------------------ global styles ------------------------------------*/
+body {
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /*background:-webkit-linear-gradient(rgba(26,159,255,.15), rgba(0,0,0,.3)) fixed, #1A9FFF url(../_images/bg_blue.png) 0 0 fixed;*/
+    background-color: #555555;
+}
+
+html, body, div, div a, a, nav, section, article, header, aside{
+    padding:0;
+    margin:0;
+    border:0;
+    list-style:none;
+    text-decoration: none;
+}
+
+a{
+    color: #1A9FFF;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.clear_both{
+    clear: both;
+}
+section{
+    width: 95%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#section_header{
+    padding-top: 80px;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+#section_description{
+    margin-top: 30px;
+    font-size: 1.6em;
+    color: #ffffff;
+    font-weight: lighter;
+}
+#section_nav{
+    margin-top: 70px;
+}
+
+#section_pics{
+    margin-top: 50px;
+    height: auto;
+    margin-bottom: 100px;
+}
+.feature_pic{
+    float: left;
+    width: 29%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#section_pics img{
+    max-width: 100%;
+    height: auto;
+}
