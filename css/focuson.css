@@ -63,3 +63,13 @@ section{
     max-width: 100%;
     height: auto;
 }
+
+@media only screen and (max-width: 768px){
+    .feature_pic{
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
