@@ -3,7 +3,7 @@
 /*------------------------------------ global styles ------------------------------------*/
 body {
     font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /*background:-webkit-linear-gradient(rgba(26,159,255,.15), rgba(0,0,0,.3)) fixed, #1A9FFF url(../_images/bg_blue.png) 0 0 fixed;*/
+    /*background:-webkit-linear-gradient(rgba(26,159,255,.15), rgba(0,0,0,.3)) fixed, #1A9FFF url(../images/bg_blue.png) 0 0 fixed;*/
     background-color: #555555;
 }
 
@@ -71,5 +71,11 @@ section{
         margin-right: auto;
         width: 90%;
         margin-bottom: 20px;
+    }
+    #section_header{
+        font-size: 1.8em;
+    }
+    #section_description{
+        font-size: 1.2em;
     }
 }

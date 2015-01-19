@@ -3,7 +3,7 @@
 /*------------------------------------ global styles ------------------------------------*/
 body {
     font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /*background:-webkit-linear-gradient(rgba(26,159,255,.15), rgba(0,0,0,.3)) fixed, #1A9FFF url(../_images/bg_blue.png) 0 0 fixed;*/
+    /*background:-webkit-linear-gradient(rgba(26,159,255,.15), rgba(0,0,0,.3)) fixed, #1A9FFF url(../images/bg_blue.png) 0 0 fixed;*/
     background-color: #555555;
 }
 
@@ -86,5 +86,24 @@ img#main_bg{
 @media only screen and (max-width: 1000px){
     img#main_bg{
         display: none;
+    }
+    #main_overlay{
+        display: none;
+    }
+    #section_header{
+        text-align: center;
+        font-size: 1.8em;
+    }
+    #section_description{
+        text-align: center;
+        font-size: 1.2em;
+    }
+    .nav_item{
+        font-size: 1em;
+        float: none;
+        display: inline-block;
+    }
+    #section_nav{
+        text-align: center;
     }
 }
