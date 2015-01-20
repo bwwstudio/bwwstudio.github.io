@@ -37,6 +37,20 @@ section{
     font-size: 3em;
     color: #ffffff;
 }
+.title, .app_store_badge{
+    float: left;
+    display: inline-block;
+}
+.title{
+    margin-right: 50px;
+}
+.app_store_badge{
+    width: 170px;
+    height: auto;
+}
+.app_store_badge img{
+    max-width: 100%;
+}
 
 #section_description{
     margin-top: 30px;
@@ -77,5 +91,8 @@ section{
     }
     #section_description{
         font-size: 1.2em;
+    }
+    .app_store_badge{
+        width: 110px;
     }
 }

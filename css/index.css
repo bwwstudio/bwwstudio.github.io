@@ -53,6 +53,8 @@ img#main_bg{
     padding-top: 150px;
     font-size: 3em;
     color: #ffffff;
+    height: 150px;
+    vertical-align: middle;
 }
 
 #section_description{
